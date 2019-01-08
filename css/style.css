@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.parent{
+	min-height: 400px;
+	background-color: #ddd;
+	position: relative;
+}
+.child1,.child2,.child3,.child4,.child5{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.child1{
+	background-color: red;
+	top: 0;
+	left: 0;
+}
+.child2{
+	background-color: green;
+	top: 0;
+	right: 0;
+}
+.child3{
+	background-color: blue;
+	left: 0;
+	bottom: 0;
+}
+.child4{
+	background-color: yellow;
+	right: 0;
+	bottom: 0;
+
+}
+.child5{
+	background-color: black;
+	left: 0;
+	right: 0;
+	margin: 150px auto;
+}
